@@ -67,14 +67,14 @@ Customers have 10,000+ dependency vulnerabilities. Manual triage doesn't scale. 
 
 **Strategic thesis:** Evo evolves from workflow automation tool to **agent orchestration platform**.
 
-### 5. AppRisk (Asset Context Layer)
+### 5. Snyk Asset Management (Asset Context Layer)
 
-AppRisk provides asset criticality data (production vs dev, customer-facing vs internal, compliance scope). Agents need this context:
+Snyk Asset Management provides asset criticality data (production vs dev, customer-facing vs internal, compliance scope). Agents need this context:
 - **Asset criticality** — Vulnerability in PCI-scoped production asset → Critical priority
 - **Business impact** — Issue in revenue-critical service → Escalate to exec team
-- **Team mapping** — Auto-route findings to owning teams based on AppRisk's service catalog
+- **Team mapping** — Auto-route findings to owning teams based on Snyk Asset Management's service catalog
 
-**Integration point:** Agents query AppRisk API for asset metadata, incorporate into risk scoring and routing decisions.
+**Integration point:** Agents query Snyk Asset Management API for asset metadata, incorporate into risk scoring and routing decisions.
 
 ## Agentic AppSec Roadmap (9 Milestones)
 
@@ -188,7 +188,7 @@ Three converging trends make 2026-2027 the right window:
 ### Tier 2: Platform Engineering Teams (Efficiency Play)
 **Target:** Tech companies with high developer:security ratios (>100:1)  
 **Pitch:** "Your security team can manage 10x more apps without more headcount"  
-**Pricing:** Bundled with Snyk AppRisk ($100k-$500k/year)
+**Pricing:** Bundled with Snyk Asset Management ($100k-$500k/year)
 
 ### Tier 3: Developers (Friction Reduction)
 **Target:** Startups, scale-ups prioritizing shipping velocity  
@@ -235,7 +235,7 @@ Three converging trends make 2026-2027 the right window:
 
 ### Q1 2027: GA Launch
 - [ ] Full product launch at Snyk Summit 2027
-- [ ] Launch tiers: Enterprise Add-On, AppRisk Bundle, Developer Freemium
+- [ ] Launch tiers: Enterprise Add-On, Asset Management Bundle, Developer Freemium
 - [ ] Target: $10M ARR from agentic workflows by EOY 2027
 
 ### Q2-Q4 2027: Expand Agent Portfolio

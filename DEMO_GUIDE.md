@@ -206,7 +206,7 @@ def detect_vulnerabilities(demo_mode=False, org_id=None):
 
 **Other integrations:**
 - EPSS API → `requests.get("https://api.first.org/data/v1/epss?cve=CVE-2024-5678")`
-- Snyk AppRisk → `requests.get("https://api.snyk.io/rest/orgs/{org}/projects/{project}/attributes")`
+- Snyk Asset Management → `requests.get("https://api.snyk.io/rest/orgs/{org}/projects/{project}/attributes")`
 - Jira → `jira.create_issue(project="SEC", summary="...", priority="P0")`
 - Slack → `slack.chat_postMessage(channel="#security-alerts", text="...")`
 
@@ -254,7 +254,7 @@ def detect_vulnerabilities(demo_mode=False, org_id=None):
 
 **Tier 2: Platform Engineering Teams (Tech Companies)**
 - Pitch: "Your security team can manage 10x more apps without more headcount"
-- Pricing: Bundled with Snyk AppRisk ($100k-$500k/year)
+- Pricing: Bundled with Snyk Asset Management ($100k-$500k/year)
 
 **Tier 3: Developers (Startups, Scale-ups)**
 - Pitch: "Stop context-switching for security alerts — agents handle the toil"
@@ -271,7 +271,7 @@ def detect_vulnerabilities(demo_mode=False, org_id=None):
 ### "How does this integrate with existing Snyk products?"
 "Three integration points:
 1. **Snyk Issues** — Agents consume the Issues API for unified prioritization across vuln/license/code/secrets
-2. **Snyk AppRisk** — Provides asset criticality data for scoring
+2. **Snyk Asset Management** — Provides asset criticality data for scoring
 3. **Snyk Evo** — Natural home for agent orchestration workflows
 
 This isn't a separate product — it's how Snyk's existing platform becomes agentic."

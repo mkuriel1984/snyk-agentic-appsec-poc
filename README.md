@@ -85,7 +85,7 @@ Demonstrates how Snyk can differentiate by embedding intelligence into every sta
 Built-in audit trails, policy versioning, and regulatory mapping (PCI-DSS, SOC 2, GDPR, DORA) make customers audit-ready by default.
 
 ### 5. **Ecosystem Integration**
-Clean adapter architecture shows how Snyk agents orchestrate across the entire DevSecOps toolchain (Jira, Slack, GitHub, CI/CD).
+Clean adapter architecture shows how Snyk agents orchestrate across the entire DevSecOps toolchain (Jira, Slack, GitHub, CI/CD, Snyk Asset Management).
 
 ## Projects
 

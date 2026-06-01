@@ -158,7 +158,7 @@ class SnykAPISource(VulnerabilitySource):
 ```
 
 Same pattern for:
-- **Asset metadata** — Demo JSON file → Snyk AppRisk API
+- **Asset metadata** — Demo JSON file → Snyk Asset Management API
 - **Threat intel** — Demo EPSS scores → FIRST.org API + CISA KEV
 - **Ticketing** — Demo console output → Jira REST API
 - **Notifications** — Demo logs → Slack webhooks
