@@ -226,6 +226,15 @@ Dashboards show:
 - **Time to remediation** — Detection to fix deployment
 - **Override rate** — Human disagreements with agent decisions (learning signal)
 
+## User Experience
+
+Want to see how people actually interact with this system?
+
+- **[USER_EXPERIENCE.md](USER_EXPERIENCE.md)** — Complete walkthroughs for Security Engineer, Developer, and Security Manager personas
+- **[UI_MOCKUPS.md](UI_MOCKUPS.md)** — Visual mockups of Slack alerts, Jira tickets, GitHub PR comments, and dashboards
+
+**TL;DR:** Security teams triage 10,000+ vulnerabilities in minutes instead of weeks. Developers get actionable guidance with clear remediation steps. Managers get one-click compliance reports.
+
 ## Extending the POC
 
 ### Add New Agents
