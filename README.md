@@ -89,7 +89,7 @@ Clean adapter architecture shows how Snyk agents orchestrate across the entire D
 
 ## Projects
 
-### [01 — Vulnerability Triage Agent](./01-vulnerability-triage-agent/)
+### [01 — Vulnerability Triage Agent](./01-vulnerability-triage-agent/) ✅ **COMPLETE**
 
 Automatically prioritizes Snyk Open Source and Container vulnerabilities using a composite risk score:
 - **Exploitability** — EPSS score, exploit maturity, active exploitation indicators
@@ -101,7 +101,7 @@ Automatically prioritizes Snyk Open Source and Container vulnerabilities using a
 - Critical CVSS 9.8 vulnerability with no exploit → Medium priority
 - Medium CVSS 6.2 with active exploitation + reachable + production asset → Critical priority
 
-### [02 — Secrets Remediation Agent](./02-secrets-remediation-agent/)
+### [02 — Secrets Remediation Agent](./02-secrets-remediation-agent/) ✅ **COMPLETE**
 
 Detects secrets in Snyk Code scans and automatically:
 1. Vaults the secret value in AWS Secrets Manager / HashiCorp Vault
@@ -113,7 +113,7 @@ Detects secrets in Snyk Code scans and automatically:
 - AWS key hardcoded in config file → auto-vaulted + PR created with boto3 resolver code
 - Slack webhook in logs → vaulted + PR comment guides developer to env vars
 
-### [03 — License Risk Agent](./03-license-risk-agent/)
+### [03 — License Risk Agent](./03-license-risk-agent/) ✅ **COMPLETE**
 
 Policy-driven license compliance enforcement:
 - **Critical licenses** (GPL, AGPL on proprietary code) → Auto-block PR + notify legal
@@ -125,7 +125,7 @@ Policy-driven license compliance enforcement:
 - GPL dependency added to commercial SaaS product → PR blocked, legal notified, Jira created
 - Apache 2.0 dependency → Auto-approved with attribution reminder
 
-### [04 — Supply Chain Defense Agent](./04-supply-chain-defense-agent/)
+### [04 — Supply Chain Defense Agent](./04-supply-chain-defense-agent/) ✅ **COMPLETE**
 
 Multi-agent coordination for malicious package detection. Three specialist agents analyze findings:
 1. **Malicious Code Detector** — Static analysis for obfuscation, suspicious network calls, crypto miners
