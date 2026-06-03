@@ -1,0 +1,62 @@
+[
+  {
+    "id": "snyk-license-001",
+    "package_name": "redis-py",
+    "package_version": "4.5.0",
+    "license": "AGPL-3.0",
+    "is_direct_dependency": true,
+    "project": "payment-api-prod",
+    "team": "payments",
+    "snyk_url": "https://app.snyk.io/org/company/project/payment-api/issue/license-001"
+  },
+  {
+    "id": "snyk-license-002",
+    "package_name": "boto3",
+    "package_version": "1.26.0",
+    "license": "Apache-2.0",
+    "is_direct_dependency": true,
+    "project": "payment-api-prod",
+    "team": "payments",
+    "snyk_url": "https://app.snyk.io/org/company/project/payment-api/issue/license-002"
+  },
+  {
+    "id": "snyk-license-003",
+    "package_name": "readline",
+    "package_version": "8.2",
+    "license": "GPL-3.0",
+    "is_direct_dependency": true,
+    "project": "cli-tool",
+    "team": "devtools",
+    "snyk_url": "https://app.snyk.io/org/company/project/cli-tool/issue/license-003"
+  },
+  {
+    "id": "snyk-license-004",
+    "package_name": "requests",
+    "package_version": "2.31.0",
+    "license": "Apache-2.0",
+    "is_direct_dependency": true,
+    "project": "web-api",
+    "team": "platform",
+    "snyk_url": "https://app.snyk.io/org/company/project/web-api/issue/license-004"
+  },
+  {
+    "id": "snyk-license-005",
+    "package_name": "internal-lib",
+    "package_version": "1.0.0",
+    "license": "Unknown",
+    "is_direct_dependency": true,
+    "project": "web-frontend",
+    "team": "frontend",
+    "snyk_url": "https://app.snyk.io/org/company/project/web-frontend/issue/license-005"
+  },
+  {
+    "id": "snyk-license-006",
+    "package_name": "lodash",
+    "package_version": "4.17.21",
+    "license": "MIT",
+    "is_direct_dependency": false,
+    "project": "web-frontend",
+    "team": "frontend",
+    "snyk_url": "https://app.snyk.io/org/company/project/web-frontend/issue/license-006"
+  }
+]
